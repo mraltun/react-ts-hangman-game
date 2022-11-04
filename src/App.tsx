@@ -24,7 +24,9 @@ const App = () => {
       <div style={{ fontSize: "2rem", textAlign: "center" }}>Lose Win</div>
       <HangmanDrawing />
       <HangmanWord />
-      <Keyboard />
+      <div style={{ alignSelf: "stretch" }}>
+        <Keyboard />
+      </div>
     </div>
   );
 };

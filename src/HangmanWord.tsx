@@ -3,6 +3,7 @@ import React from "react";
 const HangmanWord = () => {
   const word = "test";
   const guessedLetters = ["t"];
+
   return (
     <div
       style={{
